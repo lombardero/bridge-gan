@@ -25,7 +25,8 @@ Detailed instructions: https://github.com/fyu/lsun
 
 ## Instructions for Training
 
-python main.py --dataroot <PATH TO DATASET> --outf <PATH FOR SAVING TRAINED MODEL> --outimg <PATH FOR SAVING IMAGES> --niter <EPOCHS> --model <PICK ONE: 'WGAN','WGAN_GP','DCGAN'>
+python main.py --dataroot PATH TO DATASET --outf PATH FOR SAVING TRAINED MODEL --outimg PATH FOR SAVING IMAGES --niter EPOCHS --model PICK ONE: 'WGAN','WGAN_GP','DCGAN'
 
 Use this to resume training:
-python main.py --dataroot <PATH TO DATASET> --outf <PATH FOR SAVING TRAINED MODEL> --outimg <PATH FOR SAVING IMAGES> --niter <EPOCHS> --model <PICK ONE: 'WGAN','WGAN_GP','DCGAN'> --netG <Path to trained generator> --netD <Path to trained discriminator>
+
+python main.py --dataroot PATH TO DATASET --outf PATH FOR SAVING TRAINED MODEL --outimg PATH FOR SAVING IMAGES --niter EPOCHS --model PICK ONE: 'WGAN','WGAN_GP','DCGAN' --netG Path to trained generator --netD Path to trained discriminator
