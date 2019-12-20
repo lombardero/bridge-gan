@@ -24,12 +24,15 @@ def get_model(opt,nc):
     ndf = int(opt.ndf)
 
     if opt.model == 'WGAN':
+        print("Model resolved: WGAN")
         netG = wgan.Generator(ngpu,nz,ngf,nc)
         netD = wgan.Discriminator(ngpu, nc, ndf)
     elif opt.model == 'WGAN-GP':
+        print("Model resolved: WGAN_GP")
         netG = wgan_gp.Generator(ngpu,nz, ngf,nc)
         netD = wgan_gp.Discriminator(ngpu, nc, ndf)
     else:
+        print("Model resolved: DCGAN")
         netG = dcgan.Generator(ngpu,nz,ngf,nc)
         netD = dcgan.Discriminator(ngpu, nc, ndf)
 
