@@ -40,9 +40,9 @@ This repository contains 5 trained models with following config:
 3. DCGAN - 25 epochs , 40 epochs
 
 ## Results
-Model	Images	Epochs	FID score
-WGAN	500	25	105.426
-WGAN	500	40	101.813
-WGAN with Gradient Penalty	500	25	97.768
-DCGAN	500	25	95.433
-DCGAN	500	40	85.663
+|Model|	Images|	Epochs|	FID| score|
+|WGAN|	500|	25|	105.426|
+|WGAN|	500|	40|	101.813|
+|WGAN with Gradient Penalty|	500|	25|	97.768|
+|DCGAN|	500|	25|	95.433|
+|DCGAN|	500|	40|	85.663|
