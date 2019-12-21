@@ -10,7 +10,7 @@ This is a pytorch implementation of 3 different GAN models on LSUN-Bridge datase
 ## Dataset
 This implementation is for LSUN Bridge dataset.
 Clone the repo: https://github.com/fyu/lsun.git
-
+```
 Download the whole latest data set
 python3 download.py
 
@@ -18,11 +18,11 @@ Download the whole latest data set to <data_dir>
 python3 download.py -o <data_dir>
 
 Download data for bedroom
-python3 download.py -c bedroom
+python3 download.py -c bridge
 
 Download testing set
 python3 download.py -c test
-
+```
 Detailed instructions: https://github.com/fyu/lsun
 
 ## Training
