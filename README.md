@@ -23,10 +23,16 @@ python3 download.py -c test
 
 Detailed instructions: https://github.com/fyu/lsun
 
-## Instructions for Training
+## Training
 
 python main.py --dataroot PATH TO DATASET --outf PATH FOR SAVING TRAINED MODEL --outimg PATH FOR SAVING IMAGES --niter EPOCHS --model PICK ONE: 'WGAN','WGAN_GP','DCGAN'
 
 Use this to resume training:
 
 python main.py --dataroot PATH TO DATASET --outf PATH FOR SAVING TRAINED MODEL --outimg PATH FOR SAVING IMAGES --niter EPOCHS --model PICK ONE: 'WGAN','WGAN_GP','DCGAN' --netG Path to trained generator --netD Path to trained discriminator
+
+## Trained Models
+This repository contains 5 trained models with following config:
+1. WGAN - 25 epochs , 40 epochs
+2. WGAN_GP - 25 epochs
+3. DCGAN - 25 epochs , 40 epochs
