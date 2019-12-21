@@ -5,7 +5,7 @@ This is a pytorch implementation of 3 different GAN models on LSUN-Bridge datase
 2. WGAN
 3. WGAN with Gradient Penalty
 
-![Alt text](result.png?raw=true "Title")
+![Alt text](results.png?raw=true "Title")
 
 ## Dataset
 This implementation is for LSUN Bridge dataset.
