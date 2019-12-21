@@ -17,7 +17,7 @@ python3 download.py
 Download the whole latest data set to <data_dir>
 python3 download.py -o <data_dir>
 
-Download data for bedroom
+Download data for bridge
 python3 download.py -c bridge
 
 Download testing set
